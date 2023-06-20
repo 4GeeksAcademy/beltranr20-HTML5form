@@ -5,7 +5,7 @@
   margin:0; padding:0;
   box-sizing: border-box;
   outline: none; border:none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all .2s linear;
 }
 
@@ -82,20 +82,22 @@
   width: 10%;
   padding:12px;
   font-size: 10px;
-  background: red;
+  background: rgb(71, 71, 71);
   color:#fff;
   margin-top: 5px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .container form .send-btn{
   width: 10%;
   padding:12px;
   font-size: 10px;
-  background: blue;
+  background: rgb(2, 138, 120);
   color:#fff;
   margin-top: 5px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .container form .submit-btn:hover{
@@ -111,3 +113,12 @@ border-color: gray;
 border-style:solid;
 padding:12px;
 }
+
+
+.container3{
+  border-color: gray;
+  border-style:solid;
+  padding:8px;
+  margin-bottom: 10px;
+  right: 0px;
+  }
