@@ -79,31 +79,27 @@
 }
 
 .container form .cancel-btn{
-  width: 50px;
-  height: 25px;
+  width: 10%;
+  padding:12px;
   font-size: 10px;
   background: rgb(71, 71, 71);
   color:#fff;
   margin-top: 5px;
   cursor: pointer;
-  border-radius: 5px;
-  justify-content: center;
 }
 
 .container form .send-btn{
-  width: 50px;
-  height: 25px;
+  width: 10%;
+  padding:12px;
   font-size: 10px;
-  background: rgb(29, 180, 67);
+  background: rgb(2, 138, 120);
   color:#fff;
   margin-top: 5px;
   cursor: pointer;
-  border-radius: 5px;
-  justify-content: center;
 }
 
 .container form .submit-btn:hover{
-  background: #06a142;
+  background: #2ecc71;
 }
 
 .title{
@@ -116,7 +112,6 @@ border-style:solid;
 padding:12px;
 }
 
-
 .container3{
 
   border-color: gray;
@@ -126,3 +121,5 @@ padding:12px;
   margin-bottom: 10px;
   right: 0px;
   }
+
+  

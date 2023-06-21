@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 <body>
@@ -14,10 +16,12 @@
 <div class="container">
 
     <form action="">
-	
+    
 
-	<div class="container2">
-	    <h3 class="title">Payment form example</h3>
+    <div class="container2">
+    <h3 class="title">Payment form example</h3>
+
+    <div class="alert alert-danger">Some fields are missing</div>
 
         <div class="row">
 
@@ -26,23 +30,23 @@
 
  
 
-		    <div class="inputBox">
+            <div class="inputBox">
                         <span>Card #</span>
-                        <input type="number" placeholder="XXXXXXXXXXXXXXXX">
+                        <input type="number" placeholder="1111-2222-3333-4444">
                     </div>
 
-		
+        
             <div class="inputBox">
                         <span>First Name</span>
-                        <input type="text">
+                        <input type="text" placeholder="john">
                     </div>
 
-		    <div class="inputBox">
+            <div class="inputBox">
                         <span>City</span>
-                        <input type="text">
+                        <input type="text" placeholder="miami">
                     </div>
 
-		    <div class="inputBox">
+            <div class="inputBox">
                         <span>We accept:</span>
                         <img src="images/card_img.png" alt="">
                     </div>
@@ -56,94 +60,98 @@
 
                     <div class="inputBox">
                             <span>CVC #</span>
-                            <input type="text" placeholder="000">
+                            <input type="text" placeholder="1234">
                     </div>
 
                
                     <div class="inputBox">
                             <span>Last Name</span>
-                            <input type="text">
+                            <input type="text" placeholder="Doe">
                     </div>
                
-		        <div class="container4 flex">
+                <div class="flex">
 
                     <div class="inputBox">
                             <span>State</span>
-                            <input type="text" placeholder="Florida">
-                            <div align= "right">
+                            <select>
+                                <option value="AL">AL</option>
+                                <option value="AK">AK</option>
+                                <option value="AR">AR</option>
+                                <option value="AZ">AZ</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DC">DC</option>
+                                <option value="DE">DE</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="IA">IA</option>
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="MA">MA</option>
+                                <option value="MD">MD</option>
+                                <option value="ME">ME</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MO">MO</option>
+                                <option value="MS">MS</option>
+                                <option value="MT">MT</option>
+                                <option value="NC">NC</option>
+                                <option value="NE">NE</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>
+                                <option value="NV">NV</option>
+                                <option value="NY">NY</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WI">WI</option>
+                                <option value="WV">WV</option>
+                                <option value="WY">WY</option>
+                            </select>
 
-                                <select>
-                                    <option value="AL">AL</option>
-                                    <option value="AK">AK</option>
-                                    <option value="AR">AR</option>
-                                    <option value="AZ">AZ</option>
-                                    <option value="CA">CA</option>
-                                    <option value="CO">CO</option>
-                                    <option value="CT">CT</option>
-                                    <option value="DC">DC</option>
-                                    <option value="DE">DE</option>
-                                    <option value="FL">FL</option>
-                                    <option value="GA">GA</option>
-                                    <option value="HI">HI</option>
-                                    <option value="IA">IA</option>
-                                    <option value="ID">ID</option>
-                                    <option value="IL">IL</option>
-                                    <option value="IN">IN</option>
-                                    <option value="KS">KS</option>
-                                    <option value="KY">KY</option>
-                                    <option value="LA">LA</option>
-                                    <option value="MA">MA</option>
-                                    <option value="MD">MD</option>
-                                    <option value="ME">ME</option>
-                                    <option value="MI">MI</option>
-                                    <option value="MN">MN</option>
-                                    <option value="MO">MO</option>
-                                    <option value="MS">MS</option>
-                                    <option value="MT">MT</option>
-                                    <option value="NC">NC</option>
-                                    <option value="NE">NE</option>
-                                    <option value="NH">NH</option>
-                                    <option value="NJ">NJ</option>
-                                    <option value="NM">NM</option>
-                                    <option value="NV">NV</option>
-                                    <option value="NY">NY</option>
-                                    <option value="ND">ND</option>
-                                    <option value="OH">OH</option>
-                                    <option value="OK">OK</option>
-                                    <option value="OR">OR</option>
-                                    <option value="PA">PA</option>
-                                    <option value="RI">RI</option>
-                                    <option value="SC">SC</option>
-                                    <option value="SD">SD</option>
-                                    <option value="TN">TN</option>
-                                    <option value="TX">TX</option>
-                                    <option value="UT">UT</option>
-                                    <option value="VT">VT</option>
-                                    <option value="VA">VA</option>
-                                    <option value="WA">WA</option>
-                                    <option value="WI">WI</option>
-                                    <option value="WV">WV</option>
-                                    <option value="WY">WY</option>
-                                </select>
-
-                                    </div>
-                            
-                        </div>
- 		                    </div>
+                    </div>
+        </div>
             </div>
 
 
-	    <div class="col">
+        <div class="col">
 
-		    <div class="inputBox">
+            <!-- <div class="flex"> -->
+
+                <!-- <div class="inputBox">
+                        <span>Amount</span>
+                        <p>$</p>
+                        <input type="number" placeholder="1.00">
+                    </div>
+                </div> -->
+
+            <div class="inputBox">
                      <span>Amount</span>
                      <p>$</p>
-                     <input type="number" placeholder="Amount">
+                     <input type="number" placeholder="1.00">
                 </div>
-		
+        
             <div class="inputBox">
                     <span>Postal code</span>
-                    <input type="text">
+                    <input type="text" placeholder="12345">
                 </div>
 
              <div class="inputBox">
@@ -153,17 +161,12 @@
                 </div>
 
             </div>
-   	    </div>
+        </div>
     </div>
 
-    <div class="container3" align= "right">
+        <input type="submit" value="cancel" class="cancel-btn">
 
-            <input type="submit" value="Cancel" class="cancel-btn">
-
-            <input type="submit" value="Send" class="send-btn">
-
-            </div>
-        
+        <input type="submit" value="send" class="send-btn">
 
 
     </form>
