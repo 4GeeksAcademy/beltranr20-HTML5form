@@ -32,27 +32,50 @@
 
             <div class="inputBox">
                         <span>Card #</span>
-                        <input type="number" placeholder="1111-2222-3333-4444">
+                        <input type="number" placeholder="XXXXXXXXXXXXXXXX">
                     </div>
 
         
             <div class="inputBox">
                         <span>First Name</span>
-                        <input type="text" placeholder="john">
+                        <input type="text" placeholder="John">
                     </div>
 
             <div class="inputBox">
                         <span>City</span>
-                        <input type="text" placeholder="miami">
+                        <input type="text" placeholder="Miami">
                     </div>
 
+            <!-- ******FIX the row2 class to accomodate radio btns on the same line****** -->
             <div class="inputBox">
                         <span>We accept:</span>
-                        <img src="images/card_img.png" alt="">
-                    </div>
+                        <div class="row2">
+                            <label>
+                                <label class="card1"><img src="./AE img.png"></label>
+                                <input type="radio" class="radiobtn"/>
+                                
+                            </label>
+    
+                            <label>
+                                <label class="card1" ><img src="./MC img.png"></label>
+                                <input type="radio" class="radiobtn"/>
+                            </label>
+    
+                            <label>
+                                <label class="card1"><img src="./PP img.png"></label>
+                                <input type="radio" class="radiobtn"/>                              
+                            </label>
+    
+                            <label>
+                                <label class="card1"><img src="./VISA img.png"></label>
+                                <input type="radio" class="radiobtn"/>                                
+                            </label>
 
 
-               
+                        </div>
+                        
+                        
+            </div>
 
             </div>
 
@@ -70,10 +93,10 @@
                     </div>
                
                 <div class="flex">
-
-                    <div class="inputBox">
-                            <span>State</span>
-                            <select>
+                    <span>State</span>
+                        <div class="container5">
+                            <div class="inputBox">
+                                <select>
                                 <option value="AL">AL</option>
                                 <option value="AK">AK</option>
                                 <option value="AR">AR</option>
@@ -125,28 +148,20 @@
                                 <option value="WI">WI</option>
                                 <option value="WV">WV</option>
                                 <option value="WY">WY</option>
-                            </select>
+                                </select>
 
-                    </div>
-        </div>
-            </div>
+                            </div>
+                        </div>
+                    
+                 </div>
+                </div>
 
 
         <div class="col">
 
-            <!-- <div class="flex"> -->
-
-                <!-- <div class="inputBox">
-                        <span>Amount</span>
-                        <p>$</p>
-                        <input type="number" placeholder="1.00">
-                    </div>
-                </div> -->
-
             <div class="inputBox">
                      <span>Amount</span>
-                     <p>$</p>
-                     <input type="number" placeholder="1.00">
+                     <input type="number" placeholder="$1.00">
                 </div>
         
             <div class="inputBox">
@@ -154,20 +169,26 @@
                     <input type="text" placeholder="12345">
                 </div>
 
-             <div class="inputBox">
-                    <span>Message</span>
+        <div class="container4">
+                <span>Message</span>
+            <div class="inputBoxMsg">
                     <input type="text">
-                    <p>Add any notes here.</p>
                 </div>
+                <p>Add any notes here.</p>
+            </div>
+             
 
             </div>
         </div>
     </div>
 
-        <input type="submit" value="cancel" class="cancel-btn">
+            <div class="container3" align= "right">
 
-        <input type="submit" value="send" class="send-btn">
+                <input type="submit" value="Cancel" class="cancel-btn">
 
+                <input type="submit" value="Send" class="send-btn">
+
+                 </div>
 
     </form>
 
